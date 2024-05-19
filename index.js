@@ -14,7 +14,7 @@ mediaServer.use(middleware)
 mediaServer.use(router)
 
 //set up port for the server
-const port=  4007|| process.env.PORT
+const port=  4005|| process.env.PORT
 
 //run the server
 mediaServer.listen(port,()=>{
